@@ -42,7 +42,7 @@ function gerarNumeroAleatorio() {
     let numeroEscolhido = parseInt(Math.random() * 10 + 1);
     let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
 
-    if (quantidadeDeElementosNaLista == 3){
+    if (quantidadeDeElementosNaLista == 10){
         listaDeNumerosSorteados = []
     }
 
